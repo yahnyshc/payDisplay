@@ -1,6 +1,0 @@
-Started timetables sorting on 2023-09-22 10:22:57
-
-Moving timetable:
-C:/Users/yagni/Downloads/Maksym_20230918.xlsx => D:/work_timetables/2023/September/Maksym_20230918.xlsx
-
-Finished timetables sorting.

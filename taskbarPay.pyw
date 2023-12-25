@@ -7,6 +7,7 @@ import datetime
 import ntpath
 import re
 import time
+import getpass
 from modules.dirclean import dirclean
 
 script_name = os.path.splitext(ntpath.basename(__file__))[0]
@@ -30,7 +31,7 @@ def sort_work_timetables():
 
     cleaner.remove_outdated_logs(4)
 
-    downloads_folder = r"C:\Users\yagni\Downloads"
+    downloads_folder = r"C:\Users\\"+getpass.getuser()+"\Downloads"
     timetabes_folder = r'D:\work_timetables'
 
     timetables = list(filter(lambda file: re.search("Maksym.*\d\.xlsx$", file), os.listdir(downloads_folder)))

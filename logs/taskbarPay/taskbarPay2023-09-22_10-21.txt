@@ -1,3 +1,0 @@
-Started timetables sorting on 2023-09-22 10:21:57
-
-Finished timetables sorting.
